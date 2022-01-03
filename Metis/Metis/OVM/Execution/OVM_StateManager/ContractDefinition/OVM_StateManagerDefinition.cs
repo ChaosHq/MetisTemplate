@@ -237,7 +237,7 @@ namespace Metis.OVM.Execution.OVM_StateManager.ContractDefinition
         [Parameter("address", "_address", 1)]
         public virtual string Address { get; set; }
         [Parameter("uint256", "_nonce", 2)]
-        public virtual BigInteger Nonce { get; set; }
+        public new virtual BigInteger Nonce { get; set; }
     }
 
     public partial class SetExecutionManagerFunction : SetExecutionManagerFunctionBase { }
