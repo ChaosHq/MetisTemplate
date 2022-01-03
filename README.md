@@ -1,10 +1,10 @@
-# OptimismTemplate
+# MetisTemplate
 Simple template to get started example of working with Optimism
 
 ## SETUP Local Environment
 The first thing is to setup your enviroment to run your local l1 and l2 chains
 Your will need docker, and if you are using windows you can run this in WSL2 too.
-1. Clone https://github.com/ethereum-optimism/optimism-integration
+1. Clone https://github.com/MetisProtocol/optimism-integration
 2. run ```docker-compose pull```
 3. then ```make up```
 
@@ -14,12 +14,12 @@ ADDRESS_MANAGER = "0x3e4CFaa8730092552d9425575E49bB542e329981"
 
 The test accounts in L1 can be found here:
 
-https://github.com/Nethereum/OptimismTemplate/blob/main/OptimismTemplate.Testing/Erc20TokenTests.cs
+https://github.com/ChaosHq/MetisTemplate/blob/main/MetisTemplate.Testing/Erc20TokenTests.cs
 
 L1: "http://localhost:9545", CHAINID: 31337 
 L2: "http://localhost:8545", CHAINID: 420 
 
-## SETUP Kovan Environment
+## SETUP Stardust Environment
 You will need some KETH (eth) from Kovan.
 1. L1 https://kovan.infura.io/v3/7238211010344719ad14a89db874158c CHAINID 42
 2. L2 https://kovan.optimism.io CHAINID 69
